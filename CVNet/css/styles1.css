@@ -1,0 +1,287 @@
+/* styles.css */
+/*Estilos del login*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+p.error {
+    color: #ff0000;
+    text-align: center;
+}
+/*Estilo del logo*/
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #77BAF5;
+  }
+
+  .container {
+    position: relative;
+    text-align: center;
+
+  }
+
+  .logo {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+
+  .wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 800px;
+    width: 1700px;
+    z-index: -1;
+  }
+
+  h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  form {
+    text-align: left;
+  }
+
+  label, input {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /*Estilos del home*/
+  
+.menu-lateral {
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: fixed; /* Fija la posición en la pantalla */
+    left: 0; /* Posición izquierda */
+    top: 0; /* Posición superior */
+    height: 100%; /* Ocupa toda la altura disponible */
+    overflow-y: auto; /* Agrega desplazamiento vertical si es necesario */
+  }
+  
+  .menu-lateral h2 {
+    margin-bottom: 20px;
+  }
+  
+  .menu-lateral ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu-lateral li {
+    margin-bottom: 10px;
+  }
+  
+  .menu-lateral a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .menu-lateral a:hover {
+    text-decoration: underline;
+  }
+  /* Establece estilos para el menú lateral */
+.menu-lateral {
+    width: 300px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+ /* Estilos para los botones */
+.botones-horizontales button {
+  padding: 30px 60px; /* Ajusta el padding para controlar el tamaño del botón */
+  font-size: 40px; /* Ajusta el tamaño de fuente del texto en el botón */
+}
+
+/* Estilos para los botones en la parte superior */
+.botones-superiores {
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: flex-start; /* Alinear en la parte superior verticalmente */
+  background-color: #f0f0f0; /* Agrega un color de fondo */
+  padding: 10px; /* Espacio alrededor de los botones */
+}
+
+.botones-superiores button {
+  margin-right: 20px; /* Espacio entre los botones */
+}
+
+
+/* Establece margen inferior para cada opción del menú */
+.menu-lateral li {
+    margin-bottom: 50px;
+}
+
+
+/* Estilos para los enlaces en el menú */
+.menu-lateral a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Establece margen superior automático para el enlace de cierre de sesión */
+.menu-lateral .logout-link {
+    margin-top: auto;
+}
+
+/* Estilos para el enlace de cierre de sesión en la parte inferior */
+.logout-link {
+    position: absolute;
+    bottom: 150px;
+    right: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Agregar estilos para los botones en el menú */
+.menu-lateral button {
+    display: block;
+    width: 100%;
+    padding: 50px;
+    margin: 5px 2px; /* Ajusta el valor del margen aquí */
+    background-color: #333;
+    color: #fff;
+    border: navy;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .menu-lateral button:hover {
+    background-color: #555; /* Cambiar color de fondo al pasar el cursor */
+  }
+/* Agregar estilos para el botón de cierre de sesión */
+    .cerrar-sesion {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    .cerrar-sesion:hover {
+      background-color: #555;
+    }
+
+      
+      /* Agrega tus estilos CSS aquí */
+      .burbuja-usuario {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+      }
+      
+      .burbuja-usuario img {
+        width: 50px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: 50px;
+        border-radius: 50%;
+      }
+      
+      .menu-usuario {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: #ffffff;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: none;
+      }
+      
+      
+      /* Estilos de los botones del menú */
+      .menu-lateral button {
+        display: block;
+        width: 100%;
+        padding: 55px;
+        margin: 20px 2;
+        background-color: #333;
+        color: #fff;
+        border: navy;
+        border-radius: 20px;
+        cursor: pointer;
+      }
+  
+      .cerrar-sesion {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: #fff;
+        text-decoration: none;
+      }
+
+  /*Contenedores de usuarios*/  
